@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/slider/css/slick.css">
+    <link rel="stylesheet" href="./assets/slider/css/slick-theme.css">
+    <link rel="stylesheet" href="./style/main.css">
+    
+    <title>NikiStone</title>
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__wrap">
+            <a href="#" class="header__logo">
+                <img src="./assets/image/header/logo.png" alt="NikiStone - логотип">
+                Niki Stone
+            </a>
+            <nav class="header__menu">
+                <li>
+                    <a href="#">Продукция</a>
+                </li>
+                <li>
+                    <a href="#">Наши работы</a>
+                </li>
+                <li>
+                    <a href="#">Приемущества</a>
+                </li>
+                <li>
+                    <a href="#">Камень</a>
+                </li>
+                <li>
+                    <a href="#">Отзывы</a>
+                </li>
+
+            </nav>
+            <div class="header__contacts">
+                <a class="header__tel" href="#">
+                    <img src="./assets/image/header/phone.png" alt="Телефон">
+                    <span>+7 800 555-35-35</span>
+                </a>
+                <a class="header__cta-btn open-modal">Заказать звонок</a>
+                <a class="header__social" href="https://www.instagram.com/niki.stone_krd/"><img src="./assets/image/header/inst.png" alt="Instagram:"></a>
+                <a id="open-menu" class="header__menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                 </a>
+            </div>
+            
+           
+        </div>
+    </div>
+    <div id="modal" class="header__modal modal">
+        <div class="modal__wrap">
+                <h3 class="modal__title">
+                    Мы ответим на все ваши вопросы , предложим наилучшие условия и ознакомим с выгодными предложениями!
+                </h3>
+                <form class="modal__form">
+                    
+                    <input placeholder="Ваше имя" type="text">
+                    <input placeholder="Телефон" type="text">
+                    <button class="modal__btn">Перезвонить мне</button>
+                </form>
+                <a id="modal-close" class="modal__close" href="#">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </a>
+        </div>
+    </div>
+    <div id="modal-menu" class="header__modal-menu modal-menu">
+    <a id="menu-close" class="modal-menu__close" href="#">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </a>
+    <nav class="modal-menu__menu">
+                <li>
+                    <a href="#">Продукция</a>
+                </li>
+                <li>
+                    <a href="#">Наши работы</a>
+                </li>
+                <li>
+                    <a href="#">Приемущества</a>
+                </li>
+                <li>
+                    <a href="#">Камень</a>
+                </li>
+                <li>
+                    <a href="#">Отзывы</a>
+                </li>
+
+            </nav>
+    </div>
+</header>
+
+
+<section class="home">
+    <div class="container">
+        <div class="home__wrap">
+            <h1 class="home__title">Профессиональные интерьерные решения из искусственного камня</h1>
+            <p class="home__description">Изделия из литивого камня <br> и искусственного мрамора</p>
+            <a class="home__btn open-modal">Заказать изделие</a>
+        </div>
+    </div>
+</section>
+<section class="cta-wa">
+    <div class="container">
+        <div class="cta-wa__wrap">
+            <h2 class="cta-wa__title">Нужен индивидуальный расчет и замер?</h2>
+            <p class="cta-wa__description">Закажи выезд специалиста!</p>
+            <p class="cta-wa__text">Произведите расчет проекта любой сложности по WhatsApp. Мы предоставим подробное коммерческие предложение, вышлем фото образцом, проконсультируем по заменам и возможностям сокращений расходов на камень</p>
+            <a class="cta-wa__btn" href="#">Написать в WhatsApp</a>
+        </div>
+    </div>
+    <img class="cta-wa__phone" src="./assets/image/cta-wa/whatsapp.png" alt="Телефон WhatsApp">
+</section>
+<section class="product">
+    <div class="container">
+        <div class="product__wrap">
+            <h2 class="product__title section-title">
+                Мы производим
+            </h2>
+            <div class="product__cards">
+                <div class="product__card">
+                    <div class="product__img">
+                        <img src="./assets/image/product/01.png" alt="Столешница для ванной комнаты">
+                    </div>
+                    <p class="product__card-text">Столешницы для ванной камнаты</p>
+                </div>
+                <div class="product__card">
+                    <div class="product__img">
+                        <img src="./assets/image/product/02.png" alt="Подоконник">
+                    </div>
+                    <p class="product__card-text">Подоконник</p>
+                </div>
+                <div class="product__card">
+                    <div class="product__img">
+                        <img src="./assets/image/product/03.png" alt="Раковины">
+                    </div>
+                    <p class="product__card-text">Раковины</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="steps">
+    <div class="container">
+        <div class="steps__wrap">
+            <h2 class="steps__title section-title">Последовательность работы</h2>
+            <div class="steps__items">
+                <div class="steps__item">
+                    <img src="./assets/image/steps/01.png" alt="Замеряем">
+                    <p class="steps__item-text">Замеряем</p>
+                </div>
+                <div class="steps__item">
+                    <img src="./assets/image/steps/02.png" alt="Изготавливаем">
+                    <p class="steps__item-text">Изготавливаем</p>
+                </div>
+                <div class="steps__item">
+                    <img src="./assets/image/steps/03.png" alt="Устанавливаем">
+                    <p class="steps__item-text">Устанавливаем</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="works">
+        <div class="works__wrap">
+            <h2 class="works__title section-title">Наши работы</h2>
+            <div class="works__slider-wrap">
+                <div class="works__slider slider">
+                    <div class="slider__item">
+                        <img src="./assets/image/works/01.png" alt="Работа 1">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./assets/image/works/02.png" alt="Работа 1">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./assets/image/works/03.png" alt="Работа 1">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./assets/image/works/04.png" alt="Работа 1">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./assets/image/works/05.png" alt="Работа 1">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./assets/image/works/06.png" alt="Работа 1">
+                    </div>
+                </div>
+             </div>
+             <a class="works__btn" href="#">Посмотреть все работы</a>
+        </div>
+    
+</section>
+<section class="cta-price">
+    <div class="container">
+        <div class="cta-price__wrap">
+            <h2 class="cta-price__title section title">Узнать стоимость</h2>
+            <p class="cta-price__title-phone">+7 800 555-35-35</p>
+            <p class="cta-price__text">Расчитаем предварительную стоимость, расскажем о материале, поможем с выбором</p>
+            <a class="cta-price__btn open-modal">Позвонить консультанту</a>
+        </div>
+    </div>
+</section>
+<section class="advantage">
+    <div class="container">
+        <div class="advantage__wrap">
+            <h2 class="advantage__title section-title">Приемущества</h2>
+            <div class="advantage__items">
+                <div class="advantage__item">
+                    <img src="./assets/image/advantage/01.png" alt="Ударопрочный">
+                    <p class="advantage__item-text">Ударопрочный</p>
+                </div>
+                <div class="advantage__item">
+                    <img src="./assets/image/advantage/02.png" alt="Большой выбор цветов">
+                    <p class="advantage__item-text">Большой выбор цветов</p>
+                </div>
+                <div class="advantage__item">
+                    <img src="./assets/image/advantage/03.png" alt="Безвредный">
+                    <p class="advantage__item-text">Безвредный</p>
+                </div>
+                <div class="advantage__item">
+                    <img src="./assets/image/advantage/04.png" alt="Легкое очищение">
+                    <p class="advantage__item-text">Легкое очищение</p>
+                </div>
+                <div class="advantage__item">
+                    <img src="./assets/image/advantage/05.png" alt="Ремонтопригодный">
+                    <p class="advantage__item-text">Ремонтопригодный</p>
+                </div>
+                <div class="advantage__item">
+                    <img src="./assets/image/advantage/06.png" alt="Не впитывает воду">
+                    <p class="advantage__item-text">Не впитывает воду</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="garant">
+    <div class="container">
+        <div class="garant__wrap">
+            <h2 class="garant__title section-title">Боитесь за надежность?</h2>
+            <p class="garant__text">Предоставим гарантию <span>1 год!</span></p>
+            <a class="garant__btn open-modal">Заказать изделие</a>
+        </div>
+    </div>
+</section>
+<section class="stone">
+    <div class="container">
+        <div class="stone__wrap">
+            <h2 class="stone__title section-title">Используемый камень</h2>
+            <div class="stone__items">
+                <div class="stone__item">
+                    <img src="./assets/image/stone/01.png" alt="Льтьевой камень">
+                    <p class="stone__item-text">Льтьевой камень</p>
+                </div>
+                <div class="stone__item">
+                    <img src="./assets/image/stone/02.png" alt="Искусственный мрамор">
+                    <p class="stone__item-text">Искусственный мрамор</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cta-form">
+    <div class="container">
+        <div class="cta-form__wrap">
+            <h2 class="cta-form__title section-title">Рассчитаем предварительную стоимость изделия и проконсультируем</h2>
+            <form class="cta-form__form">
+                <input placeholder="Ваше имя" type="text">
+                <input placeholder="Телефон" type="text">
+                <a class="cta-form__btn" href="#">Позвонить мне</a>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="comment">
+    <div class="container">
+        <div class="comment__wrap">
+            <h2 class="comment__title section-title">Отзывы наших заказчиков</h2>
+            <div class="comment__items">
+                
+                <div class="comment__item">
+                    <img src="./assets/image/comment/01.jfif" alt="Андрей">
+                    <div class="comment__item-text">
+                        <p class="comment__author">Андрей</p>
+                        <p class="comment__text">Понравилось качество изделий, детальная проработка моих хотелок по телефону. Сделали всё вовремя и очень красиво! Всем советую</p>
+                    </div>
+                </div>
+
+                <div class="comment__item comment__item--reverse">
+                    <img src="./assets/image/comment/02.jfif" alt="Татьяна">
+                    <div class="comment__item-text comment__item-text--reverse">
+                        <p class="comment__author comment__author--reverse">Татьяна</p>
+                        <p class="comment__text comment__text--reverse">Отличная и профессиональная работа. Заказывала столешницу и раковину, сделали всё качественно и быстро. Спасибо вам! Теперь всем рекомендую 5 из 5</p>
+                    </div>
+                </div>
+
+                <div class="comment__item">
+                    <img src="./assets/image/comment/03.jfif" alt="Ирина">
+                    <div class="comment__item-text">
+                        <p class="comment__author">Ирина</p>
+                        <p class="comment__text">Заказывали с мужем столешницу в ванную комнату. Сделали всё точно в срок. Приятная стоимость и очень высокое качество продукта! Очень рады что обратились именно к вам!</p>
+                    </div>
+                </div>
+
+                <div class="comment__item comment__item--reverse">
+                    <img src="./assets/image/comment/04.jfif" alt="Максим">
+                    <div class="comment__item-text comment__item-text--reverse">
+                        <p class="comment__author comment__author--reverse">Максим</p>
+                        <p class="comment__text comment__text--reverse">Заказывали в NikiStone столешницу и подоконник. Остались очень довольный качеством и ценой. Советую всем</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__wrap">
+        <div class="footer__map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.278887845671!2d38.97212481575642!3d45.03956216969741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f04f9bf85fb3a1%3A0x44f6aaaee91df866!2z0YPQuy4g0JLQvtC70L7QtNC4INCT0L7Qu9C-0LLQsNGC0L7Qs9C-LCAzMTMsINCa0YDQsNGB0L3QvtC00LDRgCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1MDAzOA!5e0!3m2!1sru!2sru!4v1604765945046!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="footer__contacts">
+            <h3 class="footer__title">Наши контакты</h3>
+            <a class="footer__phone" href="#">+7 800 555-35-35</a>
+            <address class="footer__address">Г. Краснодар, ул. Пушкина, д. Колотушкина</address>
+            <a class="footer__social" href="https://www.instagram.com/niki.stone_krd/"><img src="./assets/image/footer/inst.png" alt="Instagram">- Наш инстаграм</a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<!-- Скрипты -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/slider/js/slick.min.js"></script>
+<script src="./assets/slider/js/slick-setting.js"></script>
+<script src="./scripts/main.js"></script>
+</body>
+</html>
