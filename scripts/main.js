@@ -65,3 +65,41 @@ function closeMenu(e){
         modalMenu.style.display = 'none';
     },300);
 }
+
+
+
+
+
+
+
+
+
+// Планый скролл к якорю
+
+$(document).ready(function(){
+	$("#menu").on("click","a", function (event) {
+		event.preventDefault(); //опустошим стандартную обработку
+		var id  = $(this).attr('href'), //заберем айдишник блока с параметром URL
+			top = $(id).offset().top -100; //определим высоту от начала страницы до якоря
+	$('body,html').animate({scrollTop: top}, 1000); //сделаем прокрутку за 1 с
+	});
+});
+
+
+
+$(document).ready(function(){
+	$("#menu-modal").on("click","a", function (event) {
+		event.preventDefault(); //опустошим стандартную обработку
+		var id  = $(this).attr('href'), //заберем айдишник блока с параметром URL
+            top = $(id).offset().top -100; //определим высоту от начала страницы до якоря
+            document.body.style.overflow = 'auto';
+    
+
+
+    modalMenu.animate({opacity:0,},310);
+    setTimeout(function(){
+        modalMenu.style.display = 'none';
+    },300);
+	$('body,html').animate({scrollTop: top}, 1000); //сделаем прокрутку за 1 с
+	});
+});
