@@ -5,6 +5,7 @@ $('.slider').slick({
   centerMode: true,
   variableWidth: true,
   dots:true,
+  speed:1000,
   autoplaySpeed: 3000,
   responsive: [
     {
