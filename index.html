@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="./assets/wowjs/animate.css"> 
 
     <link rel="stylesheet" href="./assets/slider/css/slick.css">
+    
     <link rel="stylesheet" href="./assets/slider/css/slick-theme.css">
+
+    <link rel="stylesheet" href="./assets/lightbox/lightbox.min.css">
+
     <link rel="stylesheet" href="./style/main.css">
     
     <title>NikiStone</title>
@@ -44,7 +48,7 @@
 
             </nav>
             <div class="header__contacts">
-                <a class="header__tel" href="#">
+                <a class="header__tel" href="tel:+79649118713">
                     <img src="./assets/image/header/phone.png" alt="Телефон">
                     <span>+7 800 555-35-35</span>
                 </a>
@@ -92,7 +96,7 @@
                         <a href="#works">Наши работы</a>
                     </li>
                     <li>
-                        <a href="#advatage">Приемущества</a>
+                        <a href="#advantage">Приемущества</a>
                     </li>
                     <li>
                         <a href="#stone">Камень</a>
@@ -110,7 +114,7 @@
     <div class="container">
         <div class="home__wrap">
             <h1 class="home__title">Профессиональные интерьерные решения из искусственного камня</h1>
-            <p class="home__description">Изделия из литивого камня <br> и искусственного мрамора</p>
+            <p class="home__description">Изделия из литьевого камня <br> и искусственного мрамора</p>
             <a class="home__btn open-modal">Заказать изделие</a>
         </div>
     </div>
@@ -121,7 +125,7 @@
             <h2 class="cta-wa__title">Нужен индивидуальный расчет и замер?</h2>
             <p class="cta-wa__description">Закажи выезд специалиста!</p>
             <p class="cta-wa__text">Произведите расчет проекта любой сложности по WhatsApp. Мы предоставим подробное коммерческие предложение, вышлем фото образцом, проконсультируем по заменам и возможностям сокращений расходов на камень</p>
-            <a class="cta-wa__btn" href="#">Написать в WhatsApp</a>
+            <a class="cta-wa__btn" href="https://api.whatsapp.com/send?phone=79649118713">Написать в WhatsApp</a>
         </div>
     </div>
     <img class="cta-wa__phone" src="./assets/image/cta-wa/whatsapp.png" alt="Телефон WhatsApp">
@@ -177,31 +181,44 @@
     </div>
 </section>
 <section class="works">
+    <div class="container">
         <div class="works__wrap  wow fadeIn " data-wow-duration="2s" data-wow-offset = "100">
-            <h2  id="works" class="works__title section-title">Наши работы</h2>
-            <div class="works__slider-wrap">
-                <div class="works__slider slider">
-                    <div class="slider__item">
-                        <img src="./assets/image/works/01.png" alt="Работа 1">
-                    </div>
-                    <div class="slider__item">
-                        <img src="./assets/image/works/02.png" alt="Работа 1">
-                    </div>
-                    <div class="slider__item">
-                        <img src="./assets/image/works/03.png" alt="Работа 1">
-                    </div>
-                    <div class="slider__item">
-                        <img src="./assets/image/works/04.png" alt="Работа 1">
-                    </div>
-                    <div class="slider__item">
-                        <img src="./assets/image/works/05.png" alt="Работа 1">
-                    </div>
-                    <div class="slider__item">
-                        <img src="./assets/image/works/06.png" alt="Работа 1">
-                    </div>
+            <h2 id="works" class="works__title section-title">Наши работы</h2>
+            <div class="works__items">    
+                <div class="works__item">
+                    <a data-lightbox="image-1" href="./assets/image/works/1.jpeg">
+                        <img  src="./assets/image/works/01.png" alt="">
+                    </a>
+                    
                 </div>
-             </div>
+                <div class="works__item">
+                    <a data-lightbox="image-2" href="./assets/image/works/2.jpeg">
+                        <img  src="./assets/image/works/02.png" alt="">
+                    </a>
+                </div>
+                <div class="works__item">
+                    <a data-lightbox="image-3" href="./assets/image/works/3.jpeg">
+                        <img  src="./assets/image/works/03.png" alt="">
+                    </a>
+                </div>
+                <div class="works__item">
+                     <a data-lightbox="image-4" href="./assets/image/works/4.jpeg">
+                        <img  src="./assets/image/works/04.png" alt="">
+                    </a>                </div>
+                <div class="works__item">
+                    <a data-lightbox="image-5" href="./assets/image/works/5.jpeg">
+                        <img  src="./assets/image/works/05.png" alt="">
+                    </a>
+                </div>
+                <div class="works__item">
+                    <a data-lightbox="image-6" href="./assets/image/works/6.jpeg">
+                        <img  src="./assets/image/works/06.png" alt="">
+                    </a>
+                </div>
+            </div>
              <a class="works__btn" href="#">Посмотреть все работы</a>
+        </div>
+    
         </div>
     
 </section>
@@ -209,9 +226,9 @@
     <div class="container">
         <div class="cta-price__wrap wow fadeIn"  data-wow-duration="2s" data-wow-offset = "100">
             <h2 class="cta-price__title section title">Узнать стоимость</h2>
-            <p class="cta-price__title-phone">+7 800 555-35-35</p>
+            <p class="cta-price__title-phone">+7 964 911-87-13</p>
             <p class="cta-price__text">Расчитаем предварительную стоимость, расскажем о материале, поможем с выбором</p>
-            <a class="cta-price__btn open-modal">Позвонить консультанту</a>
+            <a href="tel:+79649118713" class="cta-price__btn">Позвонить консультанту</a>
         </div>
     </div>
 </section>
@@ -332,16 +349,17 @@
 <footer class="footer wow fadeIn" data-wow-duration="2s" data-wow-offset = "100">
     <div class="footer__wrap">
         <div class="footer__map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.278887845671!2d38.97212481575642!3d45.03956216969741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f04f9bf85fb3a1%3A0x44f6aaaee91df866!2z0YPQuy4g0JLQvtC70L7QtNC4INCT0L7Qu9C-0LLQsNGC0L7Qs9C-LCAzMTMsINCa0YDQsNGB0L3QvtC00LDRgCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1MDAzOA!5e0!3m2!1sru!2sru!4v1604765945046!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6708.1271940569995!2d39.06726731900796!3d45.01639772467989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f05077a2e9a8b7%3A0x2bc6a78908bed10!2z0YPQuy4g0JXQstC00L7QutC40Lgg0JHQtdGA0YjQsNC90YHQutC-0LksIDcwLCDQmtGA0LDRgdC90L7QtNCw0YAsINCa0YDQsNGB0L3QvtC00LDRgNGB0LrQuNC5INC60YDQsNC5LCAzNTA5MTE!5e0!3m2!1sru!2sru!4v1604929491505!5m2!1sru!2sru" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>        </div>
         <div class="footer__contacts">
             <h3 class="footer__title">Наши контакты</h3>
-            <a class="footer__phone" href="#">+7 800 555-35-35</a>
-            <address class="footer__address">Г. Краснодар, ул. Пушкина, д. Колотушкина</address>
+            <a href="tel:+79649118713" class="footer__phone" href="#">+7 964 911-87-13</a>
+            <address class="footer__address">Г. Краснодар, ул. Бершанской, д. 70</address>
             <a class="footer__social" href="https://www.instagram.com/niki.stone_krd/"><img src="./assets/image/footer/inst.png" alt="Instagram">- Наш инстаграм</a>
         </div>
     </div>
 </footer>
+
+
 
 
 
@@ -356,6 +374,7 @@
 <script src="./scripts/main.js"></script>
 <script src="./assets/wowjs/WOW.js"></script>
 <script src="./assets/wowjs/settings.js"></script>
+<script src="./assets/lightbox/lightbox.min.js"></script>
 <script>new WOW().init();</script>
 </body>
 </html>
